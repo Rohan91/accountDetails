@@ -1,0 +1,11 @@
+Application is bsed on SpringBoot, using H2 as an in-memory database and Spring Data JPA as the ORM interface.
+
+There are two exposed endpoints:
+
+  /accounts
+  /accounts/{id}/transactions
+  
+/accounts : Retrieves all account details currently present in the database.
+/accounts/{id}/transactions: Retrieves all transactions specific to the pasrticular account mentioned through 'id'
+
+Two accounts are hard-coded during application startup, with IDs 123 and 124 respectively.
